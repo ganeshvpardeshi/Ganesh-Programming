@@ -8,5 +8,11 @@ class values
     {
         cout<<"Enter the value "<<endl;
         cin>>v;
+        cout<<v<<endl;
     }
+};
+int main()
+{
+    values v;
+    v.get_values();
 }

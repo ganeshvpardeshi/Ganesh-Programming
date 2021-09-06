@@ -1,4 +1,4 @@
-class LogicalOP {
+class Logical {
 
     public static void main(String []args)
         {

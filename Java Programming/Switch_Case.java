@@ -1,15 +1,17 @@
-import java.util.Scanner;
-class Switch_case 
+// import java.util.Scanner;
+class Switch_Case 
 {
     public static void main(String []args)
         {
-        
-            Scanner sc  = new Scanner(System.in);
-            
-            System.out.println("enter the value of a");
-            int a = sc.nextInt(); 
-            sc.close();
+            int a=1;
             int ch=a;
+
+            // Scanner sc  = new Scanner(System.in);
+            
+            // System.out.println("enter the value of a");
+            // int a = sc.nextInt(); 
+            // sc.close();
+            // int ch=a;
 
             switch(ch)
                 {
