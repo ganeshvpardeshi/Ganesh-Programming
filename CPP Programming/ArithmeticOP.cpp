@@ -1,10 +1,14 @@
 #include<iostream>
+#include<stdlib.h>
+#include<conio.h>
 using namespace std;
 int main()
 {
     int a,b,c;
-    a=10,b=20,c=0;
-
+    cout<<"Enter the value of a"<<endl;
+    cin>>a;
+    cout<<"Enter the value of b"<<endl;
+    cin>>b;
     //Addition
     c=a+b;
     cout<<"The Addition is "<<c<<endl;
@@ -20,5 +24,7 @@ int main()
     //Division
     c=a/b;
     cout<<"The Division is "<<c<<endl;
+
+    getch();
 
 }

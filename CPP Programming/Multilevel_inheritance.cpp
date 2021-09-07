@@ -1,4 +1,6 @@
 #include<iostream>
+#include<stdlib.h>
+#include<conio.h>
 using namespace std;
 int v;
 class values
@@ -15,4 +17,5 @@ int main()
 {
     values v;
     v.get_values();
+    getch();
 }

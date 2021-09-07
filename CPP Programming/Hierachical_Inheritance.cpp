@@ -1,4 +1,6 @@
 #include<iostream>
+#include<stdlib.h>
+#include<conio.h>
 using namespace std;
 int s; // Global Variable
 class shapes
@@ -87,4 +89,5 @@ int main()
     {
         cout<<"Invalid Input please enter The Valid Number "<<endl;
     }
+    getch();
 }

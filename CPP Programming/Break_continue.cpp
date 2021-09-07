@@ -1,4 +1,6 @@
 #include<iostream>
+#include<stdlib.h>
+#include<conio.h>
 using namespace std;
 int main()
 {
@@ -53,6 +55,7 @@ cout<<"\n\n\n"<<endl;
                     }
                 cout<<"the value using for loop is "<<i<<endl;
             }
-            
+      
+    getch();      
         
 }

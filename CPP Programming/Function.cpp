@@ -1,4 +1,6 @@
 #include<iostream>
+#include<stdlib.h>
+#include<conio.h>
 using namespace std;
 int max(int x, int y)
 {
@@ -6,17 +8,17 @@ int max(int x, int y)
 
         if(x>y)
             {
-                cout<<"The x is Greater than y"<<endl;
+                cout<<"The a is Greater than b"<<endl;
                 result=x;
             }
         else if(y>x)  
             {
-                cout<<"The y is Greater than x"<<endl;
+                cout<<"The b is Greater than a"<<endl;
                 result=y;
             }
         else    
             {
-                cout<<"Both value of x and y are Equal"<<endl;
+                cout<<"Both value of a and b are Equal"<<endl;
             }
         return result;
 };
@@ -44,4 +46,5 @@ int main()
     cin>>b;
     add(a,b);
     
+    getch();
 }

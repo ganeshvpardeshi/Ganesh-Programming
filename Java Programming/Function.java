@@ -1,35 +1,38 @@
-import java.util.Scanner;
+import java.util.Scanner ;
 public class Function 
 {
         
          // public static int a=0;
         // public static int b=0;
    
-        public static int b;
-        public static int a;
-        public static int c;
+        public static int a=0;
+        public static int b=0;
         void get_input()
         {
                 Scanner sc = new Scanner (System.in);
         
                 System.out.println("Enter the value of a : ");
-                final int a = sc.nextInt();
+                int a = sc.nextInt();
                 System.out.println("Enter the value of b : ");
-                final int b = sc.nextInt();
+                int b = sc.nextInt();
                 sc.close();
         }
-        void add(int x, int y)
+        int add(int x, int y, int z)
         {
-                c=x+y;
-                // System.out.println("The Addition is : "+c);
+                z=x+y;
+               System.out.println("The Addition is : "+z);
+               return z;
         }
 };
-class function extends Function
+class Display01 extends Function
 {
+
         public static void main(String[] args)
         {
-                Function f= new Function();
+                int c=0;
+                Display01 f= new Display01();
                 f.get_input();
-                f.add(a, b);
+                f.add(a, b,c);
+                //System.out.println("thee "+c);
         }
 }

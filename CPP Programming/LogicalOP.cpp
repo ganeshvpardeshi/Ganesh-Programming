@@ -1,4 +1,6 @@
 #include<iostream>
+#include<stdlib.h>
+#include<conio.h>
 using namespace std;
 int main()
 {
@@ -22,4 +24,5 @@ int main()
     {
         cout<<"The a is equal to c "<<endl;
     }
+    getch();
 }

@@ -1,4 +1,6 @@
 #include<iostream>
+#include<stdlib.h>
+#include<conio.h>
 using namespace std;
 void swap(int &x, int &y)
 {
@@ -27,4 +29,5 @@ int main()
     cout<<"after swaping b is "<<b<<endl;
     
     return 0;
+    getch();
 }

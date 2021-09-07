@@ -1,4 +1,6 @@
 #include<iostream>
+#include<stdlib.h>
+#include<conio.h>
 using namespace std;
 int main()
 {
@@ -19,4 +21,5 @@ int main()
             cout<<"Enter the valid number "<<endl;
         }
 
+    getch();
 }

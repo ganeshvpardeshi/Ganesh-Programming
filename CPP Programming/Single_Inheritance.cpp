@@ -1,4 +1,6 @@
 #include<iostream>
+#include<stdlib.h>
+#include<conio.h>
 using namespace std;
 int a, b, c;
 class Values
@@ -27,4 +29,5 @@ int main()
     Operation op;
     op.get_values();
     op.operation();
+    getch();
 }
