@@ -1,38 +1,62 @@
-import java.util.Scanner ;
-public class Function 
+import java.util.Scanner;
+class A 
 {
-        
-         // public static int a=0;
-        // public static int b=0;
-   
-        public static int a=0;
-        public static int b=0;
-        void get_input()
+        public static int Add(int x, int y)
         {
-                Scanner sc = new Scanner (System.in);
-        
-                System.out.println("Enter the value of a : ");
-                int a = sc.nextInt();
-                System.out.println("Enter the value of b : ");
-                int b = sc.nextInt();
-                sc.close();
+                int z=x+y;
+                return z;
         }
-        int add(int x, int y, int z)
+        
+}
+class S extends A
+{
+        public static int Sub(int c, int d)
         {
-                z=x+y;
-               System.out.println("The Addition is : "+z);
-               return z;
+                int e=c-d;
+                return e;
         }
 };
-class Display01 extends Function
+class M extends S
 {
-
+        public static int Mul(int m, int n)
+        {
+                int l=m*n;
+                return l;
+        }
+};
+class D extends M
+{
+        public static float Div(float p, float q)
+        {
+                float r=p/q;
+                return r;
+        }
+};
+class Function extends D
+{
         public static void main(String[] args)
         {
-                int c=0;
-                Display01 f= new Display01();
-                f.get_input();
-                f.add(a, b,c);
-                //System.out.println("thee "+c);
+                int a=0;
+                int b=0;
+                int sum=0,sub=0,mul=0;
+                float div=0;
+
+                Scanner sc = new Scanner(System.in);
+        
+                System.out.println("Enter the value of a : ");
+                a = sc.nextInt();
+                System.out.println("Enter the value of b : ");
+                b = sc.nextInt();
+                sc.close();
+
+                sum = Add(a,b);
+                sub = Sub(a,b);
+                mul = Mul(a,b);
+                div = Div(a,b);
+                
+                System.out.println("The Addition is : "+sum);
+                System.out.println("The Subtraction is : "+sub);
+                System.out.println("The Multiplication is : "+mul);
+                System.out.println("The Division is : "+div);
         }
 }
