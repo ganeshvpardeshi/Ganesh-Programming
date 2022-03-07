@@ -43,7 +43,7 @@ class Function extends D
 
                 Scanner sc = new Scanner(System.in);
         
-                System.out.println("Enter the value of a : ");
+                System.out.println("Enter the value of a : "); //printf("enter the your value");
                 a = sc.nextInt();
                 System.out.println("Enter the value of b : ");
                 b = sc.nextInt();
