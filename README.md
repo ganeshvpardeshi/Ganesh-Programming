@@ -1,3 +1,3 @@
-# Hii, This Ganesh and this my 1st Repository.
+# Hii, Ganesh here and this my Repository.
 # Thank You ...
  
